@@ -10,7 +10,7 @@ def create():
     namerun=False
     data['name']=input('Type your name: ')
     if data['name'].strip()=='':
-      print('Yedhachu type panala...\nOnumae illa anga!')
+      print('name')
       namerun=True
       continue
     for i in data['name'].lower():
