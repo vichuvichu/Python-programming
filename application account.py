@@ -31,7 +31,7 @@ def create():
       phrun=True
       continue
     if len(str(data['ph']))!=10:
-      print('\nMy god! phone numbers have 10 numbers like 7550309683 not {} this is not even a phone number!\nTry again\n'.format(data['ph']))
+      print('\nMy god! phone numbers have 10 numbers like 7550209664 not {} this is not even a phone number!\nTry again\n'.format(data['ph']))
       phrun=True
       continue
   #phone number vaagiyatchu----------------------------
